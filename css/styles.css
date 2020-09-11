@@ -1,0 +1,262 @@
+/* Général */
+
+body {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #33323D;
+    line-height: 1.8rem;
+}
+
+.container {
+    padding: 3.2rem;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1;
+    letter-spacing: -.1pt;
+}
+
+h2 {
+    font-size: 4rem;
+    line-height: 4rem;
+    padding-bottom: 2.7rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+    font-weight: normal;
+    padding-bottom: 3.4rem;
+}
+
+p {
+    line-height: 2;
+}
+
+.argument-illustration {
+    padding-bottom: 3.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Boutons */
+
+
+.btn {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-primary {
+    padding: 15px 32px;
+    margin: 4px 2px;
+    background-color: #203A4C;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #5FB4A2;
+    color: #fff;
+}
+
+.btn-primary:disabled {
+    background-color: #EAEAEB;
+    color: #fff;
+}
+
+.btn-secondary {
+    padding: 15px 32px;
+    margin: 4px 2px;
+    text-transform: uppercase ;
+    background-color: white;
+    color: #33323D;
+    border: 1px solid #33323D;
+}
+
+.btn-secondary:hover {
+    background-color: #33323D;
+    color: #fff;
+}
+
+.btn-secondary:disabled {
+    opacity: 20%;
+}
+
+
+/* 
+ -------------------------------------------------------
+|-------------------------------------------------------|
+|---------------------  HEADER MENU --------------------|
+|-------------------------------------------------------|
+ -------------------------------------------------------
+ */
+
+ .nav-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+.nav-header img {
+    display: block;
+    height: 3.2rem;
+}
+
+.nav-header ul,
+.nav-footer ul {
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+} 
+
+ 
+/*******************************************************|
+************************* HOME *************************|
+********************************************************/
+
+
+
+
+/*******************************************************|
+*********************** PORTFOLIO **********************|
+********************************************************/
+
+
+
+
+/*******************************************************|
+************************ DETAILS ***********************|
+********************************************************/
+.argument {
+    border-top: .1rem solid rgba(51, 51, 61, 15%);
+    border-bottom: .1rem solid rgba(51, 51, 61, 15%);
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.category {
+    color: #5FB4A2;
+}
+
+/**********************************************************
+****************** Boutons précédent et suivant ***********
+***********************************************************/
+
+.pn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 0;
+    text-decoration: none; 
+    border-top: .1rem solid rgba(51, 51, 61, 15%);
+    border-bottom: .1rem solid rgba(51, 51, 61, 15%);
+}
+
+.pn h3 {
+    padding-bottom: 1rem;
+}
+
+.previous {
+    border-right: .1rem solid rgba(51, 51, 61, 15%);
+}
+
+.btn-pn {
+    margin-top: 2.3rem;
+    margin-bottom: 3rem;
+}
+
+.next,
+.next-img {
+    text-align: right;
+}
+
+.pn p {
+    opacity: 50%;
+}
+
+.previous-img img,
+.next-img img {
+    display: inline-block;
+    padding-bottom: 2.2rem;
+}
+
+.cta {
+    text-align: center;
+}
+
+
+
+
+/*******************************************************|
+************************ CONTACT ***********************|
+********************************************************/
+
+.contact-me {
+    border-top: .1rem solid rgba(51, 51, 61, 15%);
+}
+
+.contact-item {
+    padding-top: 3.6rem;
+}
+
+
+/* Formulaire */
+
+input,
+textarea {
+    background-color: rgba(51, 50, 61, 10%);
+}
+
+input:active{
+
+}
+
+
+ /* 
+ -------------------------------------------------------
+|-------------------------------------------------------|
+|-----------------------  FOOTER -----------------------|
+|-------------------------------------------------------|
+ -------------------------------------------------------
+ */
+
+ .nav-footer {
+     background-color: #33323D;
+ }
+
+  #footer a {
+     text-decoration: none;
+     color: #fff;
+ }
+ 
+.logo-footer {
+    display: block;
+    justify-content: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+}
+
+.social li {
+    list-style-type: none;
+    margin-top: 1.7rem;
+    margin-bottom: 3.2rem;
+}
+
+.social-item {
+    margin-left: 1.5rem;
+    margin-right: 1.6rem;
+}
+
+.twitter {
+    min-height: 2.4rem;
+}

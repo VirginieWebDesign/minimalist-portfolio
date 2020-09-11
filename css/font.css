@@ -1,0 +1,79 @@
+/*  public-sans-regular - latin */
+@font-face {
+    font-family: 'Public Sans';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Public Sans Regular'), local('PublicSans-Regular'),
+        url('fonts/publicSans/static/PublicSans-Regular.ttf') format(ttf);
+}
+
+/*  public-sans-italic - latin */
+@font-face {
+    font-family: 'Public Sans';
+    font-display: swap;
+    font-style: italic;
+    font-weight: 400;
+    src: local('Public Sans Italic'), local('PublicSans-Italic'),
+        url('fonts/publicSans/static/PublicSans-Italic.ttf') format(ttf);
+}
+
+/*  public-sans-bold - latin */
+@font-face {
+    font-family: 'Public Sans';
+    font-display: swap;
+    font-style: bold;
+    font-weight: 700;
+    src: local('Public Sans Bold'), local('PublicSans-Bold'),
+        url('fonts/publicSans/static/PublicSans-SemiBold.ttf') format(ttf);
+}
+
+/*  ibarra-real-nova-regular - latin */
+@font-face {
+    font-family: 'Ibarra Real Nova';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ibarra Real Nova Regular'), local('IbarraRealNova-Regular'),
+        url('fonts/ibarraRealNova/IbarraRealNova-Regular.ttf') format(ttf);
+}
+
+/*  ibarra-real-nova-italic - latin */
+@font-face {
+    font-family: 'Ibarra Real Nova';
+    font-display: swap;
+    font-style: italic;
+    font-weight: 400;
+    src: local('Ibarra Real Nova Italic'), local('IbarraRealNova-Italic'),
+        url('fonts/ibarraRealNova/IbarraRealNova-Italic.ttf') format(ttf);
+}
+
+/*  ibarra-real-nova-bold - latin */
+@font-face {
+    font-family: 'Ibarra Real Nova';
+    font-display: swap;
+    font-style: bold;
+    font-weight: 700;
+    src: local('Ibarra Real Nova Bold'), local('IbarraRealNova-Bold'),
+        url('fonts/ibarraRealNova/IbarraRealNova-Bold.ttf') format(ttf);
+}
+
+
+/* General */
+
+body {
+    font-family: 'Public sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #33323D;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Ibarra Real Nova', sans-serif;
+}
+
+
+
